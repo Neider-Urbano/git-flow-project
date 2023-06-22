@@ -1,0 +1,16 @@
+Link: https://dazzet.co/tutorial-de-git-flow
+
+Logica para la rama feature
+
+1. Git init
+2. Git flow init
+3. Git branch -a
+4. Git remote add origin url-github-repository
+5. Git push -u origin main
+6. Git push -u origin develop
+7. Git flow feature start new-rama-feature
+8. Crear un nuevo cambio
+9. Git add ., git commit -m ""
+10. Git flow feature publish new-rama-feature
+11. Git flow feature finish new-rama-feature
+12. Git push origin develop
